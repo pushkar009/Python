@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            API Testing Page
+        </title>
+    </head>
+    <body>
+        <h1>API Testing Page</h1>
+        <form action="/api/store" method="post">
+            <input type="text" name="data" placeholder="Enter data to store">
+            <input type="submit" value="Store">
+        </form>
+        <br>
+        <form action="/api/retrieve" method="get">
+            <input type="text" name="id" placeholder="Enter ID of data to retrieve">
+            <input type="submit" value="Retrieve">
+        </form>
+        <br>
+        <div id="results"></div>
+    </body>
+</html>
